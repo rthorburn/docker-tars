@@ -1,3 +1,3 @@
 FROM continuumio/anaconda:latest
-COPY ./content/ /apps/
-CMD python /apps/application/flask_main.py
+COPY ./ /apps/
+CMD python /apps/app/flask_main.py
